@@ -5,7 +5,7 @@ WSPATH=${WSPATH:-'argo'}
 UUID=${UUID:-'5d881506-f97f-40d1-b524-390d586de559'}
 
 # 其他Paas保活
-PAAS1_URL=
+PAAS1_URL=https://dre76g.onrender.com
 
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
 ARGO_AUTH='{"AccountTag":"03c126c1674128f21fd2db28f1a2bfe6","TunnelSecret":"UxeAEQ5r1q2rEaP9DTXJJFVytc379W66ub/9iGQ6p7A=","TunnelID":"b0f18ae1-b5bc-4b44-921a-f85f474cdfbb"}'
